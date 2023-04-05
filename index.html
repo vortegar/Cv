@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head class="in">
+        <meta charset="UTF-8"/>
+        <meta name="description" content="" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link href="estilos.css" rel="stylesheet" />
+        <link rel="icon" type="image/ico" href="Imagenes/icono.ico"/>
+        <script src="https://kit.fontawesome.com/94aaaeb905.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="menu" id="body">
+        <header>
+            <div class="icon_menu">
+                <i class="fas fa-bars" id="btn_open"></i> 
+            </div>
+            <div class="scroll-line"></div>
+        </header>
+        <nav class="menu_side" id="menu_side">
+            <a class="name_page" href="#inicio">
+        
+            </a>
+            <div>
+                <ul class="options_menu" id="sel">
+                    <li id = "op1" onclick="mark(1)" class="option"><a href="#Resumen"><i class="fa-solid fa-house" title="Resumen"></i></a></li>
+                    <li id = "op2" onclick="mark(2)" class="option"><a href="#Experiencia"><i class="fa-solid fa-briefcase" title="Experiencia"></i></a></li>
+                    <li id = "op3" onclick="mark(3)" class="option"><a href="#Educacion"><i class="fa-solid fa-book-open" title="Educación"></i></a></li>
+                    <li id = "op4" onclick="mark(4)" class="option"><a href="#Habilidades"><i class="fa-solid fa-laptop-code" title="Habilidades"></i></a></li>
+                    <li id = "op5" onclick="mark(5)" class="option"><a href="#Proyectos"><i class="fa-solid fa-shapes" title="Proyectos"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main">
+            <!-- Resumen-->
+            <section id="Resumen">
+                <div class="resume-section">
+                    <div class="resumen">
+                    <h1>
+                        Victorio
+                        <span class="text-primary">Ortega</span>
+                    </h1>
+                    </div>
+                    <div class="subheading">
+                        <p>Santa Elena 1380, Santiago Centro, Chile</p>  
+                        <span class="telefono">(569) 3137-2408.</span>
+                        <a class="correo" href="mailto:vortegar28@gmail.com">vortegar28@gmail.com</a>
+                    </div>
+                    <p class="mb-5">
+                        Arquitecto con conocimientos en programación orientada a objetos, desarrollo web y 
+                        metodologías ágiles. Con experiencia en trato con clientes, creación de propuestas técnicas y 
+                        comerciales, gestión de proyectos trabajando con equipos interdisciplinarios. 
+                    </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/victorioortega/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/vortegar" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://api.whatsapp.com/send/?phone=56931372408&text&type=phone_number&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="social-icon" href="./Download/Victorio_ortega-Programador.pdf" download="CV" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+                    </div>
+                </div>
+            </section>
+            <!-- Experiencia-->
+             <section id="Experiencia">
+                <div class="resume-experiencia">
+                    <h2 class="titulo-experiencia">Experiencia</h2>
+                    <div>
+                        <div class="descripcion-experiencia">
+                            <h3 class="experiencia-trabajo">Desarrolador web freelance</h3>
+                            <div class="mb-3">
+                                <span class="subheading">Freelance</span>
+                                <span class="text-primary">Septiembre 2022 - Actualidad</span>
+                            </div>
+                            <p class="justify">
+                            Elaborar páginas y aplicaciones web funcionales utilizando herramientas de desarrollo web como HTML, React,
+                            Nodejs Express, CSS, Sass, Boostrap, javascript entre otros. Conocimiento en el sistema de versiones GIT.
+                            </p>
+                        </div>
+                        
+                        <div class="descripcion-experiencia">
+                            <h3 class="experiencia-trabajo">App Control de Gastos</h3>
+                            <div class="mb-3">
+                                <span class="subheading">Freelance</span>
+                                <span class="text-primary">Enero 2023</span>
+                            </div>
+                            <p class="justify">
+                                App dinámica para llevar el control de gastos que ha tenido un usuario, la app registra un monto de saldo inicial como los gastos que se vayan teniendo
+                                toda esta información es persistente y se almacena en el localstorage del navegador. Tecnologías ( React, Css, Nodejs).
+                            </p>
+                        </div>
+
+                        <div class="descripcion-experiencia">
+                            <h3 class="experiencia-trabajo">App Blackjack</h3>
+                            <div class="mb-3">
+                                <span class="subheading">Freelance</span>
+                                <span class="text-primary">Octubre 2022</span>
+                            </div>
+                            <p class="justify">
+                                App basada en el juego clásico del blackjack donde el usuario puede jugar contra la computadora, al final de 
+                                cada partida se visualizará el ganador de acuerdo a los parámetros establecidos en la app. Tecnologías usadas(Html, Css, Javascript).
+                            </p>
+                        </div>
+
+                        <div class="descripcion-experiencia">
+                            <h3 class="experiencia-trabajo">App eCommerce</h3>
+                            <div class="mb-3">
+                                <span class="subheading">Freelance</span>
+                                <span class="text-primary">Marzo 2022 - Agosto 2022</span>
+                            </div>
+                            <p class="justify">
+                                Página web tipo ecommerce, donde el usuario puede elegir entre los múltiples productos mostrados, y estos a su vez pueden
+                                cargarse en la sección del carro de compra de forma dinámica. Además, la página cuenta con una sección de alta y contacto
+                                en donde se validan los datos escritos dentro de los inputs. Tecnologías usadas (HTML, SASS, JS y control de versiones).
+                            </p>
+                        </div>
+
+                        <div class="descripcion-experiencia">
+                            <h3 class="experiencia-trabajo">Modelador BIM</h3>
+                            <div class="mb-3">
+                                <span class="subheading">Instelecsa LTDA.</span>
+                                <span class="text-primary">Abril 2019 - Noviembre 2022</span>
+                            </div>
+                            <p class="justify">
+                                Encargado del área de modelado BIM para las acometidas eléctricas, telecomunicaciones y ctes. débiles de edificios y/o urbanizaciones, 
+                                generando el recorrido de estas a traves de los servicios comunes de los edificios y áreas verdes de urbanizaciones, resolviendo 
+                                interferencias entre los cruces con otras especialidades ( clima, sanitario, estructura y gas ). 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>    
+            <!-- Educación-->
+            <section id="Educacion">
+                <div class="resume-educacion">
+                    <h2 class="titulo-educacion">Educación</h2>
+                    
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">Arquitecto</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Universidad de Los Andes. Mérida, Venezuela.</span>
+                            <span class="text-primary">Diciembre 2016</span>
+                        </div>
+                    </div>
+                    
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">Estrategia y Planeación de Contenidos para SEO</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Platzi.</span>
+                            <span class="text-primary">Marzo 2023</span>
+                        </div>
+                    </div>
+
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">Introducción a SEO: Posicionamiento en Buscadores</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Platzi.</span>
+                            <span class="text-primary">Marzo 2023</span>
+                        </div>
+                    </div>
+                    
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">Bootstrap 5 y Sass</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Udemy.</span>
+                            <span class="text-primary">Febrero 2023</span>
+                        </div>
+                    </div>
+                    
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">GIT + Github: Sistema de control de versiones</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Udemy.</span>
+                            <span class="text-primary">Febrero 2023</span>
+                        </div>
+                    </div>
+
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">React: Hooks y MERN</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Udemy.</span>
+                            <span class="text-primary">Enero 2023</span>
+                        </div>
+                    </div>
+
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">TypeScript: guía completa</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Udemy.</span>
+                            <span class="text-primary">Enero 2023</span>
+                        </div>
+                    </div>
+
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">javaScript Moderno</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Udemy.</span>
+                            <span class="text-primary">Enero 2023</span>
+                        </div>
+                    </div>
+
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">Bootcamp Full Stack Engineer</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Educación IT.</span>
+                            <span class="text-primary">Octubre 2022</span>
+                        </div>
+                    </div>
+                    
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">Course JavaScripts</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Solo Learn.</span>
+                            <span class="text-primary">Septiembre 2022</span>
+                        </div>
+                    </div>
+
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">Course Css</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Solo Learn.</span>
+                            <span class="text-primary">Agosto 2022</span>
+                        </div>
+                    </div>
+
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">Course Html</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Solo Learn.</span>
+                            <span class="text-primary">Agosto 2022</span>
+                        </div>
+                    </div>
+
+                    <div class="descripcion-experiencia">
+                        <h3 class="experiencia-trabajo">Master en JavaScript:  JS, jQuery, Angular, NodeJS</h3>
+                        <div class="mb-3">
+                            <span class="subheading">Udemy.</span>
+                            <span class="text-primary">Enero 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- Habilidades-->
+             <section id="Habilidades">
+                <div class="resume-habilidades" >
+                    <h2 class="mb-5 habilidades">Habilidades</h2>
+                    <div class="container">
+                        <div class="dev_icons parallax">
+                            <div class="dev_icon icon-move" >
+                                <span><i class="fa-sharp fa-solid fa-list-check fa-3x" title="Desarrollo de proyectos"></i></span>
+                                <span><h5>Desarrollo de proyectos</h5></span>                                                      
+                            </div>
+                            <div class="dev_icon icon-move">
+                                <span><i class="fa-solid fa-file fa-3x" title="Metodologías Ágiles"></i></span>
+                                <span><h5>Metodologías Ágiles</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">
+                                <span><i class="fa-brands fa-trello fa-3x" title="Trello"></i></span>
+                                <span><h5>Trello</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                               
+                                <span><i class="fab fa-js-square fa-3x" title="JavaScript"></i></span>
+                                <span><h5>JavaScript</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                               
+                                <span><i class="fa-solid fa-scroll fa-3x" title="TypeScript"></i></span>
+                                <span><h5>TypeScript</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                               
+                                <span><i class="fa-brands fa-sass fa-3x" title="Sass"></i></span>
+                                <span><h5>Sass</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                               
+                                <span><i class="fa-brands fa-bootstrap fa-3x" title="Bootstrap"></i></span>
+                                <span><h5>Bootstrap</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                              
+                                <span><i class="fab fa-html5 fa-3x" title="HTML"></i></span>
+                                <span><h5>HTML</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                             
+                                <span><i class="fab fa-css3-alt fa-3x" title="CSS"></i></span>
+                                <span><h5>CSS</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                 
+                                <span><i class="fab fa-node fa-3x" title="Node-JS"></i></span>
+                                <span><h5>Node-JS</h5></span>
+                            </div>
+                            
+                           
+                            <div class="dev_icon icon-move">                        
+                                <span class= "icon-move"><i class="fa-solid fa-computer fa-3x" title="Office"></i></span>
+                               <span><h5>Office</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                        
+                                <span class= "icon-move"><i class="fa-brands fa-react fa-3x" title="React"></i></span>
+                               <span><h5>React</h5></span>
+                            </div>
+                         
+                            <div class="dev_icon icon-move">                        
+                                <span class= "icon-move"><i class="fa-brands fa-square-git fa-3x" title="GIT"></i></span>
+                               <span><h5>GIT</h5></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Proyectos-->
+            <section id="Proyectos">
+                
+                <div class="resume-proyectos">
+                    <h2 class="proyectos">Proyectos</h2>                                      
+                  
+                    <div class= "container-box">
+
+                        <div class="project-box" id="box1" onclick="selec(1)">
+                           <img src="./Imagenes/carro.svg" alt="Calculadora">
+                            <h6>Ecommerce</h6>
+
+                            <div class="container-p">
+                                    <p>Ecommerce creado con HTML, Sass, javaScript, Nodejs con conexión a base de Datos MongoDB </p>
+                            </div>
+
+                            <div> 
+                               <a class="botom" href="https://github.com/vortegar/bc_56936-proyecto_integrador-etapa_3-victorio_ortega" target="_blank'">Código</a> 
+                            </div>
+                        </div>
+                  
+                        <div class="project-box" id="box2" onclick="selec(2)">
+                            <img src="./Imagenes/api.svg" alt="Api-Fetch">
+                            <h6>Cotizar Cripto</h6>
+
+                            <div class="container-p">
+                                    <p>Cotizador de criptomonedas realizado con React, 
+                                        creación de Hooks, Styled-components para CSS y 
+                                        API Rest para el cotizador</p>
+                            </div>
+
+                            <div> 
+                                <a class="botom" href="https://luxury-elf-6360d3.netlify.app/" target="_blank'">Web</a> 
+                            </div>
+                        </div>
+                  
+                        <div class="project-box" id="box2" onclick="selec(2)">
+                            <img src="./Imagenes/Heroe.png" alt="Api-Fetch">
+                            <h6>Heroes SPA</h6>
+
+                            <div class="container-p">
+                                    <p>
+                                    Buscador de Heroes de Marvel o DC conectada a una API local,
+                                    tecnologias usadas React y Boostrap
+                                    </p>
+                            </div>
+
+                            <div> 
+                                <a class="botom" href="https://github.com/vortegar/Heroes-spa" target="_blank'">Codigo</a> 
+                            </div>
+                        </div>
+                  
+                        <div class="project-box" id="box3" onclick="selec(3)">
+                            <img src="./Imagenes/Journal.png" alt="Car">                            
+                            <h6>Journal App</h6>
+
+                            <div class="container-p">
+                                <p>
+                                App capaz de almacenar de forma persistente
+                                las tareas pendientes en un calendario , React y Bootstrap
+                                </p>
+                            </div>
+
+                            <div> 
+                                <a class="botom" href="https://github.com/vortegar/Journal-App" target="_blank'">Código</a> 
+                            </div>
+                        </div>
+                    
+                        <div class="project-box" id="box4" onclick="selec(4)">
+                            <img src="./Imagenes/web.svg" alt="Web-Page">                          
+                            <h6>Ecommerce guitarras</h6>
+
+                            <div class="container-p">
+                                <p>Pagina web venta de guitarras, creada utilizando HTML, Bootstrap y Sass</p>
+                            </div>
+
+                            <div> 
+                                <a class="botom" href="https://github.com/vortegar/GuitarLA-Page---Bootstrap---Sass" target="_blank'">Código</a> 
+                            </div>
+                        </div>
+
+                        <div class="project-box" id="box5" onclick="selec(5)">
+                            <img src="./Imagenes/Podcast.png" alt="Citas Veterinarias">
+                             <h6>Podcast Web</h6>
+ 
+                             <div class="container-p">
+                                     <p>Web de servicios podcast, Creada con Html, Bootstrap y Sass</p>
+                             </div>
+ 
+                             <div> 
+                                <a class="botom" href="https://clinquant-torte-363774.netlify.app/" target="_blank'">Web</a> 
+                             </div>
+                        </div>
+
+                        <div class="project-box" id="box5" onclick="selec(5)">
+                            <img src="./Imagenes/citas.jpg" alt="Citas Veterinarias">
+                             <h6>Citas veterinarias</h6>
+ 
+                             <div class="container-p">
+                                     <p> Sistema de citas creado con React, Tailwind para CSS y LocalStorage</p>
+                             </div>
+ 
+                             <div> 
+                                <a class="botom" href="https://chic-lebkuchen-10ce68.netlify.app/" target="_blank'">Web</a> 
+                             </div>
+                        </div>
+
+                        <div class="project-box" id="box5" onclick="selec(5)">
+                            <img src="./Imagenes/presupuesto.png" alt="Citas Veterinarias">
+                             <h6>Gestor de gastos</h6>
+ 
+                             <div class="container-p">
+                                     <p>Aplicación interactiva para llevar cuentas, tecnologias React y Css </p>
+                             </div>
+ 
+                             <div class="separador"> 
+                                <a class="botom" href="https://famous-bavarois-49578d.netlify.app/" target="_blank'">Web</a> 
+                             </div>
+                        </div>
+
+                        <div class="project-box" id="box5" onclick="selec(5)">
+                            <img src="./Imagenes/BlackJack.png" alt="Black Jack">
+                             <h6>App Blackjack</h6>
+ 
+                             <div class="container-p">
+                                     <p> Juego interactivo de Blackjack con Javascript, Hoja de estilos CSS</p>
+                             </div>
+ 
+                             <div class="separador"> 
+                                <a class="botom" href="https://blackjackapp-vite.netlify.app" target="_blank'">Web</a> 
+                             </div>
+                        </div>
+
+                        <div class="project-box" id="box5" onclick="selec(5)">
+                            <img src="./Imagenes/Buscador.png" alt="Citas Veterinarias">
+                             <h6>App Buscador de Gif</h6>
+ 
+                             <div class="container-p">
+                                     <p>Buscador de Gif conectada con API, construida con React y Bootstrap </p>
+                             </div>
+ 
+                             <div class="separador"> 
+                                <a class="botom" href="https://gif-expert-vor.netlify.app/" target="_blank'">Web</a> 
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="box-footer">
+               <!-- <div class="logo-footer"><img src="./Imagenes/Logo.svg" alt="Logo"></div> -->
+               <span class="copytext">vortegar28@gmail.com</span>
+
+            </div>
+
+            <div class="box-footer">
+                <a class="s-icon-foot" href="https://www.linkedin.com/in/victorioortega/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="s-icon-foot" href="https://github.com/vortegar" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="s-icon-foot" href="https://api.whatsapp.com/send/?phone=56931372408&text&type=phone_number&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <div class="box-footer">
+                <div class="copytext">© Victorio Ortega R.</div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
